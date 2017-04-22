@@ -290,8 +290,8 @@ body {
 	height:100px;}
 /*------------------SECTION 5------------------------------*/
 #section5 {
-    background-color:#000;
-	opacity:0.75;}
+    background-color:transparent;
+	}
 .schematy{
 	height:570px;
 	background:url('../images/schemat.png') no-repeat;
