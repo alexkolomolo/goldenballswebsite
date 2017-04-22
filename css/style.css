@@ -119,17 +119,17 @@ body {
 	background-color:transparent;
 }
 #section1 h1{
-	font-family: 'Josefin Sans', sans-serif;
-	margin-top:50px;
-	font-weight:700;
-	font-size:38px;
-	text-align:center;
-	text-transform:uppercase;
-     background: -webkit-linear-gradient(transparent, transparent),
-    -webkit-linear-gradient(top,#fff85d 0%, #fac14c 26%, #ffd94c 35%, #986012 45%, #ffc615 61%, #fc8b06 100%);
-	  background: -o-linear-gradient(transparent, transparent);
-	-webkit-background-clip: text;
--webkit-text-fill-color: transparent;}
+  -webkit-box-sizing: content-box;
+  border: none;
+  font-family:'Century Gothic', sans-serif;
+  color: #f9ff9f;
+  text-transform:uppercase;
+  text-align: center;
+    text-shadow: 1px 1px 10px rgba(255,153,0,1) , -1px -1px 1px rgba(255,153,0,0.7) , 1px -1px 10px rgba(255,153,0,1) , -1px 1px 1px rgba(255,153,0,1);
+    -webkit-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+    transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);}
 
 .glowny{
 	padding-top:95px;
@@ -326,7 +326,7 @@ body {
 #section6{
 	padding-top:20px;
 	padding-bottom:50px;
-	background-color:transparent;}
+	background-color:rgba(0,0,0,0.5);}
 #section6 h1{
 	font-family: 'Century Gothic', sans-serif;
 	font-weight:700;
@@ -346,7 +346,7 @@ body {
 	height: 120px;
 	border-radius: 50%;
 	position: relative;
-	cursor: default;
+	cursor: pointer;
 	perspective: 900px;}
 .ch-info{
 	position: absolute;
@@ -376,12 +376,14 @@ body {
 	box-shadow: inset 60 0 0 20px rgba(0,0,0,0.3);}	
 .ch-info h3 {
 	color: #000;
-	font-size: 15px;
+	font-size: 13px;
+	line-height:18px;
 	height: 70px;
 	text-align:center;
-	font-family: 'Dosis', sans-serif;}
+	font-family: 'Dosis', sans-serif;
+	text-transform:uppercase;}
 .kuleczki{
-	opacity:0.65;}
+	opacity:0.9;}
 .dodatkowo{
 	margin-top:-30px;}
 .dodatkowo2{
@@ -393,7 +395,7 @@ body {
 	height: 145px;
 	border-radius: 50%;
 	position: relative;
-	cursor: default;
+	cursor: pointer;
 	perspective: 900px;}
 .ch-info2{
 	position: absolute;
@@ -413,8 +415,9 @@ body {
 	box-shadow: inset 0 0 0 0px rgba(0,0,0,0.3);}
 .ch-info2 h3 {
 	color:#000;
-	font-size: 17px;
+	font-size: 16px;
 	line-height:20px;
+	text-transform:uppercase;
 	height: 70px;
 	font-family: 'Dosis', sans-serif;
 	text-align:center;}
@@ -544,8 +547,10 @@ a{
 #section1{
 	height:80%;}	
 #section1 h1{
-	font-size:26px;
-	padding-bottom:10px;}	
+	margin-top:40px;
+	font-size:24px;
+	letter-spacing:2px;
+	margin-bottom:20px;}	
 .glowny{
 	   max-width:110%;
 	   margin-left:-10px;}
@@ -632,7 +637,9 @@ a{
  #section1{
 	height:80%;}	
 #section1 h1{
-	font-size:33px;
+	margin-top:30px;
+	font-size:26px;
+	letter-spacing:2px;
 	padding-bottom:30px;}	
 .glowny{
    max-width:100%;
@@ -691,7 +698,8 @@ a{
  #section1{
 	height:80%;}	
 #section1 h1{
-	font-size:33px;
+	font-size:28px;
+	letter-spacing:2px;
 	padding-bottom:30px;}	
 .glowny{
    max-width:100%;
@@ -792,8 +800,9 @@ padding-bottom:25px;}
 } 	
 
 @media only screen and (min-width : 992px) {
-	#section1 h1{
-	font-size:36px;
+#section1 h1{
+	font-size:33px;
+	letter-spacing:9px;
 	padding-bottom:30px;}
 .glowny{
     max-width:90%;
@@ -836,16 +845,18 @@ padding-bottom:25px;}
 #section1{
 	max-height:90%;}	
 #section1 h1{
-	font-size:50px;
-	padding-bottom:30px;}
+	letter-spacing:12px;
+	font-size:35px;
+	padding-bottom:40px;
+	margin-top:40px;}
 .glowny{ 
     max-height:85%;
     margin-left:50px;}
 #section2 h1{
     font-size:50px;}
 .gbbig{
-	height:310px;
-	margin-top:45px;}	
+	height:350px;
+	margin-top:30px;}	
 .section2 li{
 	font-size:22px;
 	line-height:27px;
@@ -872,7 +883,12 @@ padding-bottom:25px;}
 	height:780px;
     width:auto;}
 #section5 h1{
-	font-size:50px;}
+	font-size:50px;
+	margin-top:-20px;margin-bottom:40px;}
+#section6 h1{
+	font-size:50px;
+	margin-bottom:30px;
+}
 .schematy{
 	height:800px;
 	margin-top:120px;
