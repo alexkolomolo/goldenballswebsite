@@ -27,10 +27,10 @@ body {
 /* link */
 .navbar-inverse .navbar-nav > li > a {
     color:#cf8d21;
-	text-transform:uppercase;}
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-    color: #f9ff9f;
+	text-transform:uppercase;
+	}
+.navbar-inverse .navbar-nav > li > a:hover{
+	 color: #f9ff9f;
   text-transform:uppercase;
   text-align: center;
     text-shadow: 1px 1px 10px rgba(255,153,0,1) , -1px -1px 1px rgba(255,153,0,0.7) , 1px -1px 10px rgba(255,153,0,1) , -1px 1px 1px rgba(255,153,0,1);
@@ -39,8 +39,20 @@ body {
     -o-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
     transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
 	
+}
+.navbar-inverse .navbar-nav > li > a:focus {
+   
 	}
-.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a{
+	 color: #f9ff9f;
+  text-transform:uppercase;
+  text-align: center;
+    text-shadow: 1px 1px 10px rgba(255,153,0,1) , -1px -1px 1px rgba(255,153,0,0.7) , 1px -1px 10px rgba(255,153,0,1) , -1px 1px 1px rgba(255,153,0,1);
+    -webkit-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+    transition: text-shadow cubic-bezier(0.42, 0, 0.58, 1);
+} 
 .navbar-inverse .navbar-nav > .active > a:hover, 
 .navbar-inverse .navbar-nav > .active > a:focus {
     color: #555;
@@ -124,7 +136,7 @@ body {
 #section1 {
 	padding-top:50px;
 	height:700px;
-	color: #fff;
+	
 	background-color:transparent;
 }
 #section1 h1{
@@ -864,7 +876,8 @@ padding-bottom:25px;}
     font-size:50px;}
 .gbbig{
 	height:350px;
-	margin-top:30px;}	
+	margin-top:20px;
+	margin-left:-10px;}	
 .section2 li{
 	font-size:22px;
 	line-height:27px;
