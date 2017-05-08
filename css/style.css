@@ -917,4 +917,10 @@ padding-bottom:25px;}
     margin-left:5px;
 	margin-right:5px;}			 
 }
-	
+.footer-title{ font-size: 15px; color: white; }	
+.video {
+  object-fit: fill;
+}
+
+
+
