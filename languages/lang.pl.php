@@ -6,6 +6,8 @@ Language: Polish
 */
 
 $lang = array();
+// For images
+$lang['LANG'] = 'pl';
 
 // Navigation Menu
 $lang['MENU_HOME'] = 'Główna';

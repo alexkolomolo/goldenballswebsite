@@ -315,7 +315,7 @@ body {
 	}
 .schematy{
 	height:570px;
-	background:url('../images/schematc.png') no-repeat;
+	/*background:url('../images/schematc.png') no-repeat;*/
 	background-size:90%;
     margin-left:60px;
 	margin-right:-40px;}

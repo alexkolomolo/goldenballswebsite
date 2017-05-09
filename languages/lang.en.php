@@ -6,6 +6,8 @@ Language: English
 */
 
 $lang = array();
+// For images
+$lang['LANG'] = 'en';
 
 // Navigation Menu
 $lang['MENU_HOME'] = 'Home';

@@ -17,6 +17,7 @@ include_once 'common.php';
     <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet"> 	
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/<?php echo $lang['LANG']; ?>.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -170,7 +171,7 @@ include_once 'common.php';
 <div id="section5" class="container-fluid">
    <div class="complete">
      <h1><b></br><?php echo $lang['TO_WIN_GAME_HEADER']; ?></b></h1></br>
-	    <div class="schematy"> 
+	    <div class="schematy">
         </div>
    </div>
 </div>

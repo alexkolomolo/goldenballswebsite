@@ -1,0 +1,24 @@
+.ch-img-1 { 
+	background-image: url(../images/mission.png);}	
+.ch-img-2 { 
+	background-image: url(../images/time.png);}
+.ch-img-3 { 
+	background-image: url(../images/clear.png);}
+.ch-img-4 { 
+	background-image: url(../images/hints.png);}	
+.ch-img-5 { 
+	background-image: url(../images/state.png);}	
+.ch-img-6 { 
+	background-image: url(../images/prizes.png);}	
+.ch-img-7 { 
+	background-image: url(../images/learn.png);}	
+.ch-img-8 { 
+	background-image: url(../images/immerse.png);}
+.schematy{
+	background:url('../images/schemacikc.png') no-repeat;
+}
+@media only screen and (min-width : 1200px) {
+	.schematy{
+		background:url('../images/schematc.png') no-repeat;
+	}
+}
