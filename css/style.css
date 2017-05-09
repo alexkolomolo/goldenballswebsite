@@ -405,11 +405,13 @@ body {
 .kuleczki{
 	opacity:0.9;}
 .dodatkowo{
-	margin-top:-30px;}
+	margin-top:-30px;
+}
 .dodatkowo2{
 	margin-top:20px;}
 .dodatkowo3{
-	margin-top:-60px;}
+	margin-top:-60px;
+}
 .ch-item2 {
 	width: 145px;
 	height: 145px;
@@ -915,13 +917,11 @@ padding-bottom:25px;}
 	background:url('../images/schematc.png') no-repeat;
 	background-size:98%;
     margin-left:5px;
-	margin-right:5px;}			 
+	margin-right:5px;
 }
 .footer-title{ font-size: 15px; color: white; }	
 .video {
   object-fit: fill;
 }
-
-
-
 .ch-item, .ch-item2 { z-index: 1000; }
+

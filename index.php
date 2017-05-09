@@ -14,10 +14,9 @@ include_once 'common.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="golden, balls, escape room, game, Krakow">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet"> 	
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
-
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
