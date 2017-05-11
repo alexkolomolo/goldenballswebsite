@@ -72,33 +72,28 @@
    }	
 #section5 {
     height: 550px;
-    width: auto;
-}   
+    width: auto;}   
 } 	
 
 @media only screen and (min-width : 992px) {
-  .schematy{
+.schematy{
 		background:url('../images/schematcpl.png') no-repeat;
 		background-size: 96%;
 		margin-left:1%;
-		margin-bottom:20px;
-	}
-	#section5 {
-    height: 700px;
-    width: auto;
-}
+		margin-bottom:20px;}
+#section5 {
+		height: 700px;
+		width: auto;}
 }
 
 
 @media only screen and (min-width : 1200px) {
-	.schematy{
+.schematy{
 		background:url('../images/schematcpl.png') no-repeat;
 		background-size: 96%;
 		margin-left:1%;
-		margin-bottom:20px;
-	}
-	#section5 {
-    height: 740px;
-    width: auto;
-	}
+		margin-bottom:20px;}
+#section5 {
+		height: 740px;
+		width: auto;}
 }
