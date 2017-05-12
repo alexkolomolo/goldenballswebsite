@@ -185,11 +185,12 @@ include_once 'common.php';
 <!---------------------------Section 5----------------------------------->
 <!---------------------------Section 6----------------------------------->
 <div id="section6" class="container-fluid">
-    <h1><?php echo $lang['WE_ARE_DIFF_HEADER']; ?></h1>
-
+  <div class="row">
+  <h1><?php echo $lang['WE_ARE_DIFF_HEADER']; ?></h1>
+   </div>
   
-  <div class="container row">
-		<div class="container balls">
+  <div class="row">
+		
 			  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<div class="ch-item">				
 		           <div class="ch-info">
@@ -280,8 +281,6 @@ include_once 'common.php';
 	   </div>
 		</div>
 	</div>  
-	 
-  </div>
 
 
 
