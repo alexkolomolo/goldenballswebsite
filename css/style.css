@@ -353,26 +353,25 @@ body {
      background-position: center center;
 	 background-attachment: fixed;}
 /*------------------SECTION 6: PHOTOS------------------------------*/	
-#section6 {
+#section6{
 	padding-top:20px;
-    text-align:center;
-	color: #fff;
-	background-color:black;  
-	padding-bottom:40px;}
+	padding-bottom:50px;
+	background-color:rgba(0,0,0,0.2);}
 #section6 h1{
 	font-family: 'Century Gothic', sans-serif;
-	margin-bottom:40px;
+	font-weight:700;
 	font-size:50px;
 	text-align:center;
 	text-transform:uppercase;
-	background: -webkit-linear-gradient(transparent, transparent),
+     background: -webkit-linear-gradient(transparent, transparent),
     -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #ffd94c 35%, #986012 45%, #db6303 61%, #623d0c 100%);
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
-	
-	
-	
+    -webkit-text-fill-color: transparent;}	
+#section6 h2{
+	font-size:19px;
+	font-family: 'Dosis', sans-serif;}
+
 .ch-item {
 	width: 120px;
 	height: 120px;
