@@ -1,19 +1,27 @@
 .ch-img-1 { 
-	background-image: url(../images/missionpl.png);}	
+	background-image: url(../images/missionpl.png);
+	background-size:100%;}	
 .ch-img-2 { 
-	background-image: url(../images/timepl.png);}
+	background-image: url(../images/timepl.png);
+	background-size:100%;}
 .ch-img-3 { 
-	background-image: url(../images/clearpl.png);}
+	background-image: url(../images/clearpl.png);
+	background-size:100%;}
 .ch-img-4 { 
-	background-image: url(../images/hintspl.png);}	
+	background-image: url(../images/hintspl.png);
+	background-size:100%;}	
 .ch-img-5 { 
-	background-image: url(../images/statepl.png);}	
+	background-image: url(../images/statepl.png);
+	background-size:100%;}	
 .ch-img-6 { 
-	background-image: url(../images/prizespl.png);}	
+	background-image: url(../images/prizespl.png);
+	background-size:100%;}	
 .ch-img-7 { 
-	background-image: url(../images/learnpl.png);}	
+	background-image: url(../images/learnpl.png);
+	background-size:100%;}	
 .ch-img-8 { 
-	background-image: url(../images/immersepl.png);}
+	background-image: url(../images/immersepl.png);
+	background-size:100%;}
 .schematy{
 	background:url('../images/schemacikcpl.png') no-repeat;
 
