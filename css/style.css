@@ -489,7 +489,7 @@ margin-top:20px;}
 	position: relative;
 	cursor: pointer;
 	perspective: 900px;
-	margin:0 75px;}
+	}
 .ch-info{
 	position: absolute;
 	width: 100%;
@@ -532,7 +532,7 @@ margin-top:20px;}
 	position: relative;
 	cursor: pointer;
 	perspective: 900px;
-	margin:0 65px;}
+	}
 .ch-info2{
 	position: absolute;
 	width: 100%;
