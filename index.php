@@ -406,7 +406,7 @@ include_once 'common.php';
     </div>
     <div class="container">
 	  <div class="row">
-		 <div class="col-md-2 col-md-offset-5 button1"><a href="#">
+		 <div class="button1"><a href="#">
 			 <button><b><?php echo $lang['BOOK_BUTTON_LABEL']; ?></b></button></a>
 		  </div> 
 	  </div>
