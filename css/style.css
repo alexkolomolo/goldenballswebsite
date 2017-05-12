@@ -762,29 +762,7 @@ a{
 	background-size:90%;
     margin-left:10px;
 	margin-right:2px;}
-.ch-item{
-	margin-top:5px;
-	margin-bottom:5px;
-	margin-left:30%;
-	margin-right:30%;}
-.ch-item2{
-	margin-top:5px;
-	margin-bottom:5px;
-	margin-left:-10px;
-	margin-right:30%;}
-.dodatkowo{
-	margin-top:5px;
-	margin-bottom:5px;
-	margin-left:30%;
-	margin-right:30%;}
-.dodatkowo3{
-	margin-top:5px;
-	margin-bottom:5px;}
-.ch-item2.dodatkowo{
-    margin-left:-20px;}
-.ch-item.dodatkowo{
-    margin-left:-20px;}
-.ch-item.dodatkowo3{margin-left:50%;}
+
 #section6 h1{
 	font-size:40px;}
 .button1 button{
