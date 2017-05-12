@@ -413,13 +413,11 @@ body {
 .kuleczki{
 	opacity:0.9;}
 .dodatkowo{
-	margin-top:-30px;
-}
+	margin-top:-30px;}
 .dodatkowo2{
 	margin-top:20px;}
 .dodatkowo3{
-	margin-top:-60px;
-}
+	margin-top:-60px;}
 .ch-item2 {
 	width: 145px;
 	height: 145px;
@@ -462,36 +460,151 @@ body {
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;}	
 .ch-img-1 { 
-	background-image: url(../images/mission.png);
-	background-size: 100%;}	
+	background-image: url(../images/mission.png);}	
 .ch-img-2 { 
-	background-image: url(../images/time.png);
-	background-size: 100%;
-}
+	background-image: url(../images/time.png);}
 .ch-img-3 { 
-	background-image: url(../images/clear.png);
-	background-size: 100%;
-	}
+	background-image: url(../images/clear.png);}
 .ch-img-4 { 
-	background-image: url(../images/hints.png);
-	background-size: 100%;
-	}	
+	background-image: url(../images/hints.png);}	
 .ch-img-5 { 
-	background-image: url(../images/state.png);
-	background-size: 100%;
-	}	
+	background-image: url(../images/state.png);}	
 .ch-img-6 { 
 	background-image: url(../images/prizes.png);
-	background-size: 100%;
-	}	
+	background-size:105%;}	
 .ch-img-7 { 
-	background-image: url(../images/learn.png);
-	background-size: 100%;
-	}	
+	background-image: url(../images/learn.png);}	
 .ch-img-8 { 
-	background-image: url(../images/immerse.png);
-	background-size: 100%;
-	}	
+	background-image: url(../images/immerse.png);}	
+.balls{
+	margin-left:3%;
+}		
+.one{
+	float:left;
+	width:280px;
+    margin:20px 10px 40px 10px;
+    padding:5px;}
+.two{
+	float:left;
+	width:280px;
+    margin:10px 10px 40px 10px;
+    padding:5px;}
+.three{
+	float:left;
+	width:280px;
+    margin:10px 10px 40px 10px;
+    padding:5px;}
+.four{
+	float:left;
+	width:280px;
+    margin:20px 10px 40px 10px;
+    padding:5px;}
+.five{
+	float:left;
+	width:280px;
+    margin:10px 10px 40px 10px;
+    padding:5px;}
+.six{
+	float:left;
+	width:280px;
+    margin:20px 10px 40px 10px;
+    padding:5px;}
+.seven{
+	float:left;
+	width:280px;
+    margin:20px 10px 40px 10px;
+    padding:5px;}
+.eight{
+	float:left;
+	width:280px;
+    margin:10px 10px 40px 10px;
+    padding:5px;	}
+.ch-item {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+	perspective: 900px;
+	margin:0 75px;}
+.ch-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;}
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-position: center center;
+	transition: all 0.4s linear;
+	transform-origin: 100% 50%;}
+.ch-info .ch-info-back {
+	transform: translate3d(0,0,-100px) rotate3d(1,0,0);
+	background-image: url(../images/kulkaa.png);
+	opacity: 0;}
+.ch-item:hover .ch-info-front {
+	transform: translate3d(0,100px,0) rotate3d(1,90deg,0,-90deg);
+	opacity: 0;}
+.ch-item:hover .ch-info-back {
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;}	
+.ch-info .ch-info-front {
+	box-shadow: inset 60 0 0 20px rgba(0,0,0,0.3);}	
+.ch-info h3 {
+	color: #000;
+	font-size: 13px;
+	line-height:18px;
+	height: 70px;
+	text-align:center;
+	font-family: 'Dosis', sans-serif;
+	text-transform:uppercase;}
+	
+.ch-item2 {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+	perspective: 900px;
+	margin:0 65px;}
+.ch-info2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;}
+.ch-info2 > div {
+	display: block;
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background-position: center center;
+	transition: all 0.4s linear;
+	transform-origin: 100% 50%;}
+.ch-info2 .ch-info-back2 {
+	transform: translate3d(0,0,-100px) rotate3d(1,0,0);
+	background-image: url(../images/kulkaa.png);
+	opacity: 0;}
+.ch-item2:hover .ch-info-front2 {
+	transform: translate3d(0,100px,0) rotate3d(1,90deg,0,-90deg);
+	opacity: 0;}
+.ch-item2:hover .ch-info-back {
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;}	
+.ch-info2 .ch-info-front2 {
+	box-shadow: inset 60 0 0 20px rgba(0,0,0,0.3);}	
+.ch-info2 h3 {
+	color: #000;
+	font-size: 13px;
+	line-height:18px;
+	height: 70px;
+	text-align:center;
+	font-family: 'Dosis', sans-serif;
+	text-transform:uppercase;}
+		
 
 /*------------------SECTION 7:BOOKING------------------------------*/
 #section7{
