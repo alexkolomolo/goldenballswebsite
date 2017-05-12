@@ -275,7 +275,6 @@ include_once 'common.php';
   
   <div class="container row">
 	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="one">
 				<div class="ch-item">				
 		           <div class="ch-info">
 			         <div class="ch-info-front ch-img-1"></div>
@@ -284,10 +283,8 @@ include_once 'common.php';
 			            </div>	
 		            </div>
 				</div>
-	        </div>
-	  </div>
+	        </div>	  </div>
 	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="two">
 				<div class="ch-item2">				
 		           <div class="ch-info2">
 			         <div class="ch-info2-front2 ch-img-2"></div>
@@ -296,11 +293,9 @@ include_once 'common.php';
 			            </div>	
 		            </div>
 	            </div>
-			</div>
 	   </div>
 	  
 	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="three">
 				<div class="ch-item2">				
 		           <div class="ch-info2">
 			         <div class="ch-info2-front2 ch-img-3"></div>
@@ -309,11 +304,9 @@ include_once 'common.php';
 			            </div>
 		            </div>
 	            </div>
-	</div>	
 	   </div>
 	   
 	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="four">
 				<div class="ch-item">				
 		           <div class="ch-info">
 			         <div class="ch-info-front ch-img-4"></div>
@@ -322,11 +315,9 @@ include_once 'common.php';
 			            </div>
 		            </div>
 	            </div>
-			</div>
 	   </div>
 	   
 	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="five">
 			<div class="ch-item2">				
 		           <div class="ch-info2">
 						<div class="ch-info2-front2 ch-img-5"></div>
@@ -335,11 +326,9 @@ include_once 'common.php';
 			            </div>	 
 		            </div>
 	            </div>
-		</div>
 	   </div>
 	   
 	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="six">
 				<div class="ch-item">
 					<div class="ch-info">
 			        <div class="ch-info-front ch-img-6"></div>
@@ -348,12 +337,10 @@ include_once 'common.php';
 			            </div> 
 		            </div>
 				</div>
-			</div>
 	   </div>
 	   
 		
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="seven">
 				<div class="ch-item">				
 		           <div class="ch-info">
 			         <div class="ch-info-front ch-img-7"></div>
@@ -362,12 +349,10 @@ include_once 'common.php';
 			            </div>	
 		             </div>
 	            </div>
-			</div>
 	   </div>
 	   
 	   
 	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="eight">
 				<div class="ch-item2">				
 		           <div class="ch-info2">
 			         <div class="ch-info2-front2 ch-img-8"></div>
@@ -375,7 +360,6 @@ include_once 'common.php';
 				           <h3><?php echo $lang['WE_ARE_DIFF_IMMERSIVE']; ?></h3>
 			            </div>	
 		            </div>
-				</div>
 			</div>	
 	   </div>
 	  
