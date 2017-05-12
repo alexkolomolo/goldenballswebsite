@@ -138,7 +138,9 @@ body {
 	color: #cf8d21;}
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
 	color: #cf8d21;}
-
+.dropdown-menu .li{
+	color:lightpink;
+}
 
 /*---------------------SECTION1----------------*/
 #section1 {
@@ -476,51 +478,10 @@ body {
 .ch-img-8 { 
 	background-image: url(../images/immerse.png);
 	}	
-
 .balls{
-	margin-top:20px;
-	margin-left:3%;
-}		
-.one{
+margin-top:20px;}
 	
-	width:280px;
-    margin:20px 10px 40px 10px;
-    padding:5px;}
-.two{
-	
-	width:280px;
-    margin:10px 10px 40px 10px;
-    padding:5px;}
-.three{
-	
-	width:280px;
-    margin:10px 10px 40px 10px;
-    padding:5px;}
-.four{
-	
-	width:280px;
-    margin:20px 10px 40px 10px;
-    padding:5px;}
-.five{
-	
-	width:280px;
-    margin:10px 10px 40px 10px;
-    padding:5px;}
-.six{
-	
-	width:280px;
-    margin:20px 10px 40px 10px;
-    padding:5px;}
-.seven{
-	
-	width:280px;
-    margin:20px 10px 40px 10px;
-    padding:5px;}
-.eight{
-	
-	width:280px;
-    margin:10px 10px 40px 10px;
-    padding:5px;	}
+
 .ch-item {
 	width: 120px;
 	height: 120px;
@@ -611,8 +572,7 @@ body {
 /*------------------SECTION 7:BOOKING------------------------------*/
 #section7{
 	min-height:250px;
-	background-color:#000;
-	margin-bottom:20px;}
+	background-color:#000;}
 .booking{
 	margin-top:50px;
 	margin-left:5px;
