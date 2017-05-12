@@ -2,7 +2,7 @@ body {
     position: relative; 
 	background-color:black;}
 .logo{
-	height:100px;
+	height:40px;
 	margin-top:-5px;}
 .navbar-inverse {
     background-color:#000000;
@@ -354,7 +354,7 @@ body {
 #section6{
 	padding-top:20px;
 	padding-bottom:50px;
-	background-color:rgba(0,0,0,0.5);}
+	background-color:rgba(0,0,0,0.2);}
 #section6 h1{
 	font-family: 'Century Gothic', sans-serif;
 	font-weight:700;
@@ -410,14 +410,7 @@ body {
 	text-align:center;
 	font-family: 'Dosis', sans-serif;
 	text-transform:uppercase;}
-.kuleczki{
-	opacity:0.9;}
-.dodatkowo{
-	margin-top:-30px;}
-.dodatkowo2{
-	margin-top:20px;}
-.dodatkowo3{
-	margin-top:-60px;}
+
 .ch-item2 {
 	width: 145px;
 	height: 145px;
@@ -460,23 +453,32 @@ body {
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;}	
 .ch-img-1 { 
-	background-image: url(../images/mission.png);}	
+	background-image: url(../images/mission.png);
+	background-size:100%;}	
 .ch-img-2 { 
-	background-image: url(../images/time.png);}
+	background-image: url(../images/time.png);
+	background-size:100%;}
 .ch-img-3 { 
-	background-image: url(../images/clear.png);}
+	background-image: url(../images/clear.png);
+	background-size:100%;}
 .ch-img-4 { 
-	background-image: url(../images/hints.png);}	
+	background-image: url(../images/hints.png);
+	background-size:100%;}	
 .ch-img-5 { 
-	background-image: url(../images/state.png);}	
+	background-image: url(../images/state.png);
+	background-size:100%;}	
 .ch-img-6 { 
 	background-image: url(../images/prizes.png);
-	background-size:105%;}	
+	background-size:100%;}	
 .ch-img-7 { 
-	background-image: url(../images/learn.png);}	
+	background-image: url(../images/learn.png);
+	background-size:100%;}	
 .ch-img-8 { 
-	background-image: url(../images/immerse.png);}	
+	background-image: url(../images/immerse.png);
+	background-size:100%;}	
+
 .balls{
+	margin-top:20px;
 	margin-left:3%;
 }		
 .one{
@@ -500,6 +502,7 @@ body {
     margin:20px 10px 40px 10px;
     padding:5px;}
 .five{
+	clear:both;
 	float:left;
 	width:280px;
     margin:10px 10px 40px 10px;
