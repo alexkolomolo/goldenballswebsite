@@ -189,49 +189,49 @@ include_once 'common.php';
  <div class="balls">
   
   <div class="container row">
-	  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	  <div class="col-md-3">
 				
 				           <h3><?php echo $lang['WE_ARE_DIFF_MISSION']; ?></h3>
 			       
 	   </div>	  
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	   <div class="col-md-3">
 				
 				           <h3><?php echo $lang['WE_ARE_DIFF_PRESSURE']; ?></h3>
 			        
 	   </div>
 	  
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	   <div class="col-md-3">
 				
 				           <h3><?php echo $lang['WE_ARE_DIFF_OBJECTIVE']; ?></h3>
 			         
 	   </div>
 	   
-	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	    <div class="col-md-3">
 				
 						 <h3><?php echo $lang['WE_ARE_DIFF_HINTS']; ?></h3>
 			      
 	   </div>
 	   
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	   <div class="col-md-3">
 			
 				          <h3><?php echo $lang['WE_ARE_DIFF_ART']; ?></h3> 
 			        
 	   </div>
 	   
-	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	    <div class="col-md-3">
 				
 				           <h3><?php echo $lang['WE_ARE_DIFF_PRIZES']; ?></h3> 
 
 	   </div>
 	   
 		
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="col-md-3">
 				
 				          <h3><?php echo $lang['WE_ARE_DIFF_LEARN']; ?></h3> 
 	   </div>
 	   
 	   
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	   <div class="col-md-3">
 				           <h3><?php echo $lang['WE_ARE_DIFF_IMMERSIVE']; ?></h3>
 			    
 	   </div>
