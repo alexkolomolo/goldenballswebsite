@@ -43,13 +43,13 @@ $lang['TO_WIN_GAME_IMG_SRC'] = '';
 // why we are different section
 $lang['WE_ARE_DIFF_HEADER'] = 'Co NAS WYRÓŻNIA?';
 $lang['WE_ARE_DIFF_OBJECTIVE'] = '<b>Rozwiązywanie </br>zagadek </br>będących</br> częścią </br>fabuły gry.</b>';
-$lang['WE_ARE_DIFF_MISSION'] = '<b>Cel to nie tylko</br> ucieczka,</br>to misja </br>do</br> do wykonania.</b>';
+$lang['WE_ARE_DIFF_MISSION'] = '<b>Cel to nie tylko</br> ucieczka,</br>to misja do</br> wykonania.</b>';
 $lang['WE_ARE_DIFF_LEARN'] = '<b>Jak</br> uwolnić się </br>z kajdanek, </br>bez użycia</br> klucza?</b>';
 $lang['WE_ARE_DIFF_ART'] = '<b>Całkowicie</br> zautomatyzowana </br>i elektronicznie kontrolowalna,</br>zajmująca</br> gra.</b>';
 $lang['WE_ARE_DIFF_HINTS'] = '<b>Wymiana</br>zebranych </br>złotych Piłek</br> na podpowidzi.</b>';
 $lang['WE_ARE_DIFF_IMMERSIVE'] = '<b>Zmień </br>swoją</br> tożsamość </br>i bądź częścią</br>gry.</b>';
 $lang['WE_ARE_DIFF_PRESSURE'] = '<b></br>Pośpiesz się!</br> Czas</br> leci!</b>';
-$lang['WE_ARE_DIFF_PRIZES'] = '<b>Im więcej złotych piłek,</br>,tym lepsza</br>nagroda.</b>';
+$lang['WE_ARE_DIFF_PRIZES'] = '<b>Im więcej</br>złotych piłek,</br>tym lepsza</br>nagroda.</b>';
 $lang['WE_ARE_DIFF_IMG_SRC'] = 'Język';
 
 // Book now section
