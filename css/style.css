@@ -2,7 +2,7 @@ body {
     position: relative; 
 	background-color:black;}
 .logo{
-	height:100px;
+	height:40px;
 	margin-top:-5px;}
 .navbar-inverse {
     background-color:#000000;
@@ -611,7 +611,8 @@ body {
 /*------------------SECTION 7:BOOKING------------------------------*/
 #section7{
 	min-height:250px;
-	background-color:#000;}
+	background-color:#000;
+	margin-bottom:20px;}
 .booking{
 	margin-top:50px;
 	margin-left:5px;
@@ -624,12 +625,14 @@ body {
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-.button1 {
+.button1 button{
 	margin:auto;
 	border:solid 1px #d3aa49;
 	border-radius: 5px 5px 5px 5px;
 	padding:5px;
+	
 	vertical-align:middle;
+	max-width:100%;
 	text-align:center;
 	text-transform:uppercase;
 	font-family: 'Dosis', sans-serif;
@@ -639,9 +642,9 @@ body {
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	font-size:28px;
-	outline:none;
-}
-
+	outline:none;}
+.button1 button: hover{
+	background-color:#fff;}
 /*-----------------------------section 8 FOOTER-----------------------------------*/
 #section8{
 	font-family: 'Dosis', sans-serif;
