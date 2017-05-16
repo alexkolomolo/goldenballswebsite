@@ -176,11 +176,6 @@ include_once 'common.php';
    </div>
 </div>
 
-<!----------------------------Botoom LINE---------------------------------------->  
-
-<div class="sectionplus" class="container-fluid">
-   <div class="row"></div>
-</div>
 <!---------------------------Bottom LINE----------------------------------->
 <div class="sectionplus" class="container-fluid">
    <div class="row"></div>
@@ -273,7 +268,10 @@ include_once 'common.php';
 				</div>
 		</div>     
 </div>
-
+<!---------------------------Bottom LINE----------------------------------->
+<div class="sectionplus" class="container-fluid">
+   <div class="row"></div>
+</div>
 <!-------------------Section 7: BOOKING---------------------------------->
 <div id="section7" class="container-fluid">
     <div class="row">
