@@ -372,120 +372,40 @@ body {
 	font-size:19px;
 	font-family: 'Dosis', sans-serif;}
 
-.ch-item {
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	position: relative;
-	cursor: pointer;
-	perspective: 900px;}
-.ch-info{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;}
-.ch-info > div {
-	display: block;
-	position: absolute;
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	background-position: center center;
-	transition: all 0.4s linear;
-	transform-origin: 100% 50%;}
-.ch-info .ch-info-back {
-	transform: translate3d(0,0,-100px) rotate3d(1,0,0);
-	background-image: url(../images/kulkaa.png);
-	opacity: 0;}
-.ch-item:hover .ch-info-front {
-	transform: translate3d(0,100px,0) rotate3d(1,90deg,0,-90deg);
-	opacity: 0;}
-.ch-item:hover .ch-info-back {
-	transform: rotate3d(1,0,0,0deg);
-	opacity: 1;}	
-.ch-info .ch-info-front {
-	box-shadow: inset 60 0 0 20px rgba(0,0,0,0.3);}	
-.ch-info h3 {
-	color: #000;
-	font-size: 13px;
-	line-height:18px;
-	height: 70px;
-	text-align:center;
-	font-family: 'Dosis', sans-serif;
-	text-transform:uppercase;}
-
-.ch-item2 {
-	width: 145px;
-	height: 145px;
-	border-radius: 50%;
-	position: relative;
-	cursor: pointer;
-	perspective: 900px;}
-.ch-info2{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;}
-.ch-info2 > div {
-	display: block;
-	position: absolute;
-	width: 145px;
-	height: 145px;
-	border-radius: 50%;
-	background-position: center center;
-	transition: all 0.4s linear;
-	transform-origin: 50% 0%;}
-.ch-info2 .ch-info2-front2 {
-	box-shadow: inset 0 0 0 0px rgba(0,0,0,0.3);}
-.ch-info2 h3 {
-	color:#000;
-	font-size: 16px;
-	line-height:20px;
-	text-transform:uppercase;
-	height: 70px;
-	font-family: 'Dosis', sans-serif;
-	text-align:center;}
-.ch-info2 .ch-info2-back2 {
-	transform: translate3d(0,0,-100px) rotate3d(1,0,0);
-	background-image: url(../images/kulkaa.png);
-	opacity: 0;}
-.ch-item2:hover .ch-info2-front2 {
-	transform: translate3d(0,100px,0) rotate3d(1,90deg,0,-90deg);
-	opacity: 0;}
-.ch-item2:hover .ch-info2-back2 {
-	transform: rotate3d(1,0,0,0deg);
-	opacity: 1;}	
 .ch-img-1 { 
 	background-image: url(../images/mission.png);
-	}	
+	background-size:cover;}	
 .ch-img-2 { 
 	background-image: url(../images/time.png);
 	}
 .ch-img-3 { 
 	background-image: url(../images/clear.png);
-	}
+	background-size:cover;}
 .ch-img-4 { 
 	background-image: url(../images/hints.png);
-	}	
+	background-size:cover;}	
 .ch-img-5 { 
 	background-image: url(../images/state.png);
-	}	
+	background-size:cover;}	
 .ch-img-6 { 
 	background-image: url(../images/prizes.png);
-	}	
+	background-size:cover;}	
 .ch-img-7 { 
 	background-image: url(../images/learn.png);
+	background-size:cover;
 	}	
 .ch-img-8 { 
 	background-image: url(../images/immerse.png);
+	background-size:cover;
 	}	
 .balls{
 margin-top:20px;}
-	
+
 
 .ch-item {
-	width: 120px;
-	height: 120px;
+	margin:auto;
+	width: 150px;
+	height: 180px;
 	border-radius: 50%;
 	position: relative;
 	cursor: pointer;
@@ -516,6 +436,7 @@ margin-top:20px;}
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;}	
 .ch-info .ch-info-front {
+	
 	box-shadow: inset 60 0 0 20px rgba(0,0,0,0.3);}	
 .ch-info h3 {
 	color: #000;
@@ -567,18 +488,14 @@ margin-top:20px;}
 	height: 70px;
 	text-align:center;
 	font-family: 'Dosis', sans-serif;
-	text-transform:uppercase;}
-		
+	text-transform:uppercase;}	
 
 /*------------------SECTION 7:BOOKING------------------------------*/
 #section7{
 	min-height:250px;
 	background-color:#000;}
 .booking{
-	margin-top:50px;
-	margin-left:5px;
-	margin-right:5px;
-	margin-bottom:30px;
+	margin-top:50px 5px 30px 5px;
 	text-align:center;
 	font-family: 'Dosis', sans-serif;
 	background: -webkit-linear-gradient(transparent, transparent),
@@ -586,13 +503,18 @@ margin-top:20px;}
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
+.button1{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 200px;}
 .button1 button{
 	margin:auto;
+	width:180px;
+	vertical-align:middle;
 	border:solid 1px #d3aa49;
 	border-radius: 5px 5px 5px 5px;
 	padding:5px;
-	
-	vertical-align:middle;
 	max-width:100%;
 	text-align:center;
 	text-transform:uppercase;
@@ -1004,5 +926,5 @@ padding-bottom:25px;}
 .video {
   object-fit: fill;
 }
-.ch-item, .ch-item2 { z-index: 1000; }
+
 

@@ -181,114 +181,97 @@ include_once 'common.php';
 <div class="sectionplus" class="container-fluid">
    <div class="row"></div>
 </div>
+<!---------------------------Bottom LINE----------------------------------->
+<div class="sectionplus" class="container-fluid">
+   <div class="row"></div>
+</div>
+<!----------------------------------------Section 6-------------------------------------------------------->
 
-<!---------------------------Section 5----------------------------------->
-<!---------------------------Section 6----------------------------------->
 <div id="section6" class="container-fluid">
-  <div class="row">
-  <h1><?php echo $lang['WE_ARE_DIFF_HEADER']; ?></h1>
-   </div>
-  
-  <div class="row">
-		
-			  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="ch-item">				
+	<div class="row">
+		<h1><?php echo $lang['WE_ARE_DIFF_HEADER']; ?></h1>
+	</div> 
+
+		<div class="col-md-3 col-sm-6">
+				  <div class="ch-item">				
 		           <div class="ch-info">
 			         <div class="ch-info-front ch-img-1"></div>
 			            <div class="ch-info-back">
-				           <h3><?php echo $lang['WE_ARE_DIFF_MISSION']; ?></h3>
+				          <h3><?php echo $lang['WE_ARE_DIFF_MISSION']; ?></h3>
 			            </div>	
 		            </div>
 				</div>
-	        </div>	  
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="ch-item2">				
-		           <div class="ch-info2">
-			         <div class="ch-info2-front2 ch-img-2"></div>
-			            <div class="ch-info2-back2">
-				           <h3><?php echo $lang['WE_ARE_DIFF_PRESSURE']; ?></h3>
+		</div>
+		<div class="col-md-3 col-sm-6">
+				<div class="ch-item">				
+		           <div class="ch-info">
+			         <div class="ch-info-front ch-img-2"></div>
+			            <div class="ch-info-back">
+				          <h3><?php echo $lang['WE_ARE_DIFF_PRESSURE']; ?></h3>
 			            </div>	
 		            </div>
-	            </div>
-	   </div>
-	  
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="ch-item2">				
-		           <div class="ch-info2">
-			         <div class="ch-info2-front2 ch-img-3"></div>
-			            <div class="ch-info2-back2">
-				           <h3><?php echo $lang['WE_ARE_DIFF_OBJECTIVE']; ?></h3>
-			            </div>
+				</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+				<div class="ch-item">				
+		           <div class="ch-info">
+			         <div class="ch-info-front ch-img-3"></div>
+			            <div class="ch-info-back">
+				          <h3><?php echo $lang['WE_ARE_DIFF_OBJECTIVE']; ?></h3>
+			            </div>	
 		            </div>
-	            </div>
-	   </div>
-	   
-	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
 				<div class="ch-item">				
 		           <div class="ch-info">
 			         <div class="ch-info-front ch-img-4"></div>
 			            <div class="ch-info-back">
-						 <h3><?php echo $lang['WE_ARE_DIFF_HINTS']; ?></h3>
-			            </div>
-		            </div>
-	            </div>
-	   </div>
-	   
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-			<div class="ch-item2">				
-		           <div class="ch-info2">
-						<div class="ch-info2-front2 ch-img-5"></div>
-			            <div class="ch-info2-back2">
-				          <h3><?php echo $lang['WE_ARE_DIFF_ART']; ?></h3> 
-			            </div>	 
-		            </div>
-	            </div>
-	   </div>
-	   
-	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="ch-item">
-					<div class="ch-info">
-			        <div class="ch-info-front ch-img-6"></div>
-			            <div class="ch-info-back">
-				           <h3><?php echo $lang['WE_ARE_DIFF_PRIZES']; ?></h3> 
-			            </div> 
+				          <h3><?php echo $lang['WE_ARE_DIFF_HINTS']; ?></h3>
+			            </div>	
 		            </div>
 				</div>
-	   </div>
-	   
-		
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="ch-item">				
+		</div>
+		<div class="col-md-3 col-sm-6">
+			  <div class="ch-item">				
+		           <div class="ch-info">
+			         <div class="ch-info-front ch-img-5"></div>
+			            <div class="ch-info-back">
+				          <h3><?php echo $lang['WE_ARE_DIFF_ART']; ?></h3>
+			            </div>	
+		            </div>
+				</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<div class="ch-item">				
+		           <div class="ch-info">
+			         <div class="ch-info-front ch-img-6"></div>
+			            <div class="ch-info-back">
+				          <h3><?php echo $lang['WE_ARE_DIFF_PRIZES']; ?></h3>
+			            </div>	
+		            </div>
+				</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<div class="ch-item">				
 		           <div class="ch-info">
 			         <div class="ch-info-front ch-img-7"></div>
 			            <div class="ch-info-back">
-				          <h3><?php echo $lang['WE_ARE_DIFF_LEARN']; ?></h3> 
+				          <h3><?php echo $lang['WE_ARE_DIFF_LEARN']; ?></h3>
 			            </div>	
-		             </div>
-	            </div>
-	   </div>
-	   
-	   
-	   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="ch-item2">				
-		           <div class="ch-info2">
-			         <div class="ch-info2-front2 ch-img-8"></div>
-			            <div class="ch-info2-back2">
+		            </div>
+				</div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+				<div class="ch-item">				
+		           <div class="ch-info">
+			         <div class="ch-info-front ch-img-8"></div>
+			            <div class="ch-info-back">
 				           <h3><?php echo $lang['WE_ARE_DIFF_IMMERSIVE']; ?></h3>
 			            </div>	
 		            </div>
-			</div>	
-	   </div>
-		</div>
-	</div>  
-
-
-
-
-
-<!---------------------------Bottom LINE----------------------------------->
-<div class="sectionplus" class="container-fluid">
-   <div class="row"></div>
+				</div>
+		</div>     
 </div>
 
 <!-------------------Section 7: BOOKING---------------------------------->
@@ -299,7 +282,7 @@ include_once 'common.php';
     </div>
     <div class="container">
 	  <div class="row">
-		 <div class="col-md-2 col-md-offset-5 button1"><a href="#">
+		 <div class="button1"><a href="#">
 			 <button><b><?php echo $lang['BOOK_BUTTON_LABEL']; ?></b></button></a>
 		  </div> 
 	  </div>
