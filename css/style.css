@@ -556,13 +556,13 @@ a{
 .footer2{
 	color:#fff;
 	text-align:left;
-	font-size:22px;
+	font-size:17px;
 	line-height:40px;
 	float:right;}
 .footer2 p{
 	margin-top:30px;
 	text-transform:uppercase;
-	font-size:26px; 
+	font-size:28px; 
 	background: -webkit-linear-gradient(transparent, transparent),
     -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
 	  background: -o-linear-gradient(transparent, transparent);

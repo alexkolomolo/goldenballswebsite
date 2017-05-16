@@ -311,8 +311,8 @@ include_once 'common.php';
 	     <p><?php echo $lang['CONTACT_US_HEADER']; ?></p>
 	     <ul style="list-style-type:none">
 	        <li><img src="images/locationc.png" class="location" alt=""/><?php echo $lang['CONTACT_US_ADDRESS']; ?></li>
-	        <li><img src="images/phonec.png" class="phone" alt=""/>+48 123 456 789</br></li>
-	        <li><img src="images/messagec.png" class="email" alt=""/>golden.balls@mail.com</br></li>
+	        <li><img src="images/phonec.png" class="phone" alt=""/>+48 123 456 789</li>
+	        <li><img src="images/messagec.png" class="email" alt=""/>golden.balls@mail.com</li>
 	     </ul>
        </div>
   </div>
