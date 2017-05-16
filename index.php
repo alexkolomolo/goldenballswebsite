@@ -170,7 +170,8 @@ include_once 'common.php';
 <!---------------------------Section 5----------------------------------->
 <div id="section5" class="container-fluid">
    <div class="complete">
-     <h1><b></br><?php echo $lang['TO_WIN_GAME_HEADER']; ?></b></h1></br>
+    <div class="row">
+     <h1><b></br><?php echo $lang['TO_WIN_GAME_HEADER']; ?></b></h1></br></div>
 	    <div class="schematy">
         </div>
    </div>
