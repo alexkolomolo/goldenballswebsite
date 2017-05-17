@@ -88,7 +88,7 @@ include_once 'common.php';
 		    <img src="images/gb6c.png" class="gbbig"/>
 		  </div>	
         <div class="col-md-8 arguments2">
-	      <ul style="list-style-type:none">
+	      <ul style="list-style-type:none" class="pointers">
 	        <li><img src="images/punktator.png" class="email2" alt=""/><?php echo $lang['ABOUT_US_1']; ?></li>
 	        <li><img src="images/punktator.png" class="email2" alt=""/><?php echo $lang['ABOUT_US_2']; ?></li>
 	        <li><img src="images/punktator.png" class="email2" alt=""/><?php echo $lang['ABOUT_US_3']; ?></li>

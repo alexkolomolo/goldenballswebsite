@@ -596,6 +596,16 @@ a{
 	height:30px;
 	margin-left:20px;
 	margin-right:20px;}
+	
+
+.email2 {
+    height: 26px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+margin-right: 45%;}
+	
+	
+	
 .down{
 	text-align:center;
 	color:#3d3832;
@@ -625,10 +635,14 @@ a{
 	padding-bottom:25px;
 	text-align:center;}
 .email2 {
-    height: 26px;
-	margin-bottom:10px;
-	margin-left:35%;
-	margin-right:50%;}	
+   height: 26px;
+	margin-bottom: 10px;
+	margin-left: 35%;
+	margin-right: 50%;}
+.pointers{
+	list-style-type: none;
+	margin-left: -20px;
+}	
 .arguments9{
 	font-size:26px;}
 .ball{
@@ -734,6 +748,10 @@ a{
 #section6 h1{
 	font-size: 30px;
 	padding-bottom: 40px;}
+.pointers{
+	list-style-type: none;
+	margin-left: -20px;
+}	
 .booking h1{
 	font-size: 30px;
 	padding-bottom: 70px;
