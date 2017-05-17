@@ -506,43 +506,38 @@ margin-top:20px;}
 	min-height:250px;
 	background-color:#000;}
 .booking{
-	font-family: 'Dosis', sans-serif;
-	font-size:30px;
 	text-align:center;
-	text-transform:uppercase;
+	font-family: 'Dosis', sans-serif;
 	background: -webkit-linear-gradient(transparent, transparent),
-    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #ffd94c 35%, #986012 45%, #db6303 61%, #623d0c 100%);
+    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-	opacity:1;
-}
+    -webkit-text-fill-color: transparent;}
+
+	
 .button1{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	width: 200px;}
-.button1 button {
-    margin: 20px auto;
-    width: 180px;
-    vertical-align: middle;
-    border: solid 1px #d3aa49;
-    border-radius: 5px 5px 5px 5px;
-    padding: 5px;
-    max-width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Dosis', sans-serif;
-    background: -webkit-linear-gradient(transparent, transparent), -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
-    background: -o-linear-gradient(transparent, transparent);
-    -webkit-background-clip: text;
-    font-size: 28px;
-    outline: none;
-    color: #ffae0c;
-}
-	
-	
-	
+.button1 button{
+	margin:auto;
+	width:180px;
+	vertical-align:middle;
+	border:solid 1px #d3aa49;
+	border-radius: 5px 5px 5px 5px;
+	padding:5px;
+	max-width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	font-family: 'Dosis', sans-serif;
+	background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
+	  background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-size:28px;
+	outline:none;}
 .button1 button: hover{
 	background-color:#fff;}
 /*-----------------------------section 8 FOOTER-----------------------------------*/
@@ -598,16 +593,6 @@ a{
 	height:30px;
 	margin-left:20px;
 	margin-right:20px;}
-	
-
-.email2 {
-    height: 26px;
-    margin-bottom: 10px;
-    margin-left: 15%;
-margin-right: 45%;}
-	
-	
-	
 .down{
 	text-align:center;
 	color:#3d3832;
@@ -637,14 +622,10 @@ margin-right: 45%;}
 	padding-bottom:25px;
 	text-align:center;}
 .email2 {
-   height: 26px;
-	margin-bottom: 10px;
-	margin-left: 35%;
-	margin-right: 50%;}
-.pointers{
-	list-style-type: none;
-	margin-left: -20px;
-}	
+    height: 26px;
+	margin-bottom:10px;
+	margin-left:35%;
+	margin-right:50%;}	
 .arguments9{
 	font-size:26px;}
 .ball{
@@ -702,10 +683,10 @@ margin-right: 45%;}
 	font-size:36px;}
 .gbbig{
 	height:200px;
-	margin-left:14%;}
-.arguments2 {
-    margin-right: 15%;
-}	
+	margin-left:15%;}
+.arguments2{
+	margin-left:-15px;
+	margin-right:5px;}
 .section2 li{
 	font-size:19px;
 	line-height:22px;
@@ -713,19 +694,15 @@ margin-right: 45%;}
 	text-align:center;}
 .email2 {
     height: 26px;
-    margin-bottom: 10px;
-    margin-left: 33%;
-	margin-right: 55%;}
-	
+	margin-bottom:10px;
+	margin-left:40%;
+	margin-right:40%;}	
 #section3{
 	height:300px;
 	background:url('../images/tlo8.jpg');
-     background-position: center center !important;
+     background-position: center center;
 	 background-repeat: no-repeat;
-	 /*nadpisane*/
-	 background-attachment: fixed;
-	 background-size:contein !important;}
-	 /*koniec*/
+	 background-attachment: fixed;}		
 .arguments9{
 	font-size:26px;}
 .ball{
@@ -737,8 +714,9 @@ margin-right: 45%;}
 	height:900px;
     width:auto;}
 #section5 h1{
-	margin: 10px auto 15px 40px;
+	margin-top:10px;
 	font-size:34px;
+	margin-left:10%;
 	position:absolute;}
 .schematy{
 	height:900px;
@@ -750,19 +728,9 @@ margin-right: 45%;}
 #section6 h1{
 	font-size: 30px;
 	padding-bottom: 40px;}
-.pointers{
-	list-style-type: none;
-	margin-left: -20px;
-}	
 .booking h1{
 	font-size: 30px;
-	padding-bottom: 70px;
-	margin-bottom:20px;
-	
-	
-	
-	
-	}
+	padding-bottom: 70px;}
 .contact{
 	font-size:50px;
 }  
@@ -869,11 +837,6 @@ padding-bottom:25px;}
 	font-size:40px;
 	margin-left:30%;
 	position:absolute;}
-#section5 h1 {
-    font-size: 40px;
-    position: absolute;
-	margin: auto 15% 30px;}
-	
 .schematy{
 	height:800px;
 	margin-top:100px;
