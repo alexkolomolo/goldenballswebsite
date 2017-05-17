@@ -512,7 +512,7 @@ margin-top:20px;}
     -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+    color:#fd7a07}
 
 	
 .button1{
@@ -734,7 +734,8 @@ margin-right: 55%;}
 	padding-bottom: 40px;}
 .booking h1{
 	font-size: 30px;
-	padding-bottom: 70px;}
+	padding-bottom: 70px;
+	margin-bottom:20px;}
 .contact{
 	font-size:50px;
 }  
@@ -841,6 +842,11 @@ padding-bottom:25px;}
 	font-size:40px;
 	margin-left:30%;
 	position:absolute;}
+#section5 h1 {
+    font-size: 40px;
+    position: absolute;
+	margin: auto 15% 30px;}
+	
 .schematy{
 	height:800px;
 	margin-top:100px;
