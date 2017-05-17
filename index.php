@@ -168,10 +168,12 @@ include_once 'common.php';
   <div class="row"></div>
 </div>
 <!---------------------------Section 5----------------------------------->
-<div id="section5" class="container-fluid">
-   <div class="complete">
-    <div class="row">
-     <h1><b></br><?php echo $lang['TO_WIN_GAME_HEADER']; ?></b></h1></br></div>
+ <div id="section5" class="container-fluid">
+   <div class="row">
+      <div class="use">
+      <h1><b></br><?php echo $lang['TO_WIN_GAME_HEADER']; ?></b></h1></br></div>
+   </div>
+   <div class="use">
 	    <div class="schematy">
         </div>
    </div>
@@ -296,7 +298,16 @@ include_once 'common.php';
 
 <div id="section8" class="col-md-12 container">
    <div class="row">
-       <div class="col-md-4 col-md-offset-1 footer1">
+       
+	   <div class="col-md-5 col-md-offset-1 footer2" >
+	     <p><?php echo $lang['CONTACT_US_HEADER']; ?></p>
+	     <ul style="list-style-type:none">
+	        <li><img src="images/locationc.png" class="location" alt=""/><?php echo $lang['CONTACT_US_ADDRESS']; ?></li>
+	        <li><img src="images/phonec.png" class="phone" alt=""/>+48 123 456 789</li>
+	        <li><img src="images/messagec.png" class="email" alt=""/>golden.balls@mail.com</li>
+	     </ul>
+       </div>
+	   <div class="col-md-4 col-md-offset-1 footer1">
 	       <img src="images/gb2c.png" class="logo2" alt=""/>
 		   </br></br></br>
 			<a href="#section1"><?php echo $lang['MENU_HOME']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
@@ -305,14 +316,6 @@ include_once 'common.php';
 			<a href="#section4"><?php echo $lang['MENU_PLAN']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
 			<a href="#section5"><?php echo $lang['MENU_BOOKING']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
 			</br></br></br>
-       </div>
-	   <div class="col-md-5 col-md-offset-1 footer2" >
-	     <p><?php echo $lang['CONTACT_US_HEADER']; ?></p>
-	     <ul style="list-style-type:none">
-	        <li><img src="images/locationc.png" class="location" alt=""/><?php echo $lang['CONTACT_US_ADDRESS']; ?></li>
-	        <li><img src="images/phonec.png" class="phone" alt=""/>+48 123 456 789</li>
-	        <li><img src="images/messagec.png" class="email" alt=""/>golden.balls@mail.com</li>
-	     </ul>
        </div>
   </div>
 	   <div class="row">
