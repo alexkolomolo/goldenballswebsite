@@ -698,14 +698,15 @@ a{
     margin-left: 33%;
 margin-right: 55%;}
 	
-	
-	
 #section3{
 	height:300px;
 	background:url('../images/tlo8.jpg');
-     background-position: center center;
+     background-position: center center !important;
 	 background-repeat: no-repeat;
-	 background-attachment: fixed;}		
+	 /*nadpisane*/
+	 background-attachment: fixed;
+	 background-size:contein !important;}
+	 /*koniec*/
 .arguments9{
 	font-size:26px;}
 .ball{
