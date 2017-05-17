@@ -506,15 +506,17 @@ margin-top:20px;}
 	min-height:250px;
 	background-color:#000;}
 .booking{
-	text-align:center;
 	font-family: 'Dosis', sans-serif;
+	font-size:30px;
+	text-align:center;
+	text-transform:uppercase;
 	background: -webkit-linear-gradient(transparent, transparent),
-    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
+    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #ffd94c 35%, #986012 45%, #db6303 61%, #623d0c 100%);
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
-    color:#fd7a07}
-
-	
+    -webkit-text-fill-color: transparent;
+	opacity:1;
+}
 .button1{
 	margin-left: auto;
 	margin-right: auto;
@@ -755,7 +757,12 @@ margin-right: 45%;}
 .booking h1{
 	font-size: 30px;
 	padding-bottom: 70px;
-	margin-bottom:20px;}
+	margin-bottom:20px;
+	
+	
+	
+	
+	}
 .contact{
 	font-size:50px;
 }  
