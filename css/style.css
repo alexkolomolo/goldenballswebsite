@@ -545,6 +545,12 @@ margin-top:20px;}
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;}
 /*-----------------------------section 8 FOOTER-----------------------------------*/
+#section10{
+	background-color:rgba(0,0,0,0.7);
+}
+
+
+
 #section8{
 	font-family: 'Dosis', sans-serif;
 	font-size:16px;
@@ -641,10 +647,10 @@ a{
 		
 .click{
     text-transform: uppercase;
-    margin: 5px;
-    font-size: 22px;
+    margin: 12px;
+    font-size: 20px;
     text-align: center;
-	line-height:22px;
+	letter-spacing:0.5pt;
 	font-family: 'Dosis', sans-serif;
 	background: -webkit-linear-gradient(transparent, transparent),
     -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
@@ -659,7 +665,7 @@ a{
     width: 120px;
     margin: auto;
     height: auto;
-    padding-top: 20%;
+    padding-top: 30px;
 }
 	
 	
@@ -667,9 +673,12 @@ a{
 	
 	
 .down{
-	text-align:center;
-	color:#3d3832;
-	font-size:10px;}
+	text-align: center;
+	color: #d3aa49;
+	font-size: 12px;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 10px;
+	padding-bottom: 10px;}
 /*----------------MEDIA QUERIES-----------------------*/
 @media only screen and (max-width : 320px) {
 #section1{
