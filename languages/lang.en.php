@@ -58,6 +58,6 @@ $lang['BOOK_BUTTON_LABEL'] = 'BOOK NOW';
 
 // Footer section
 $lang['CONTACT_US_HEADER'] = 'Contact us';
-$lang['CONTACT_US_ADDRESS'] = '6a Slawkowska Street<b> Cracow, Poland</b></br>';
+$lang['CONTACT_US_ADDRESS'] = '6a Slawkowska Street<b></br> Cracow, Poland</b>';
 $lang['CONTACT_US_FOOTER'] = 'Golden balls &copy 2017 &nbsp;All rights reserved';
 ?>

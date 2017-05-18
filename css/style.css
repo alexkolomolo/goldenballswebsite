@@ -585,18 +585,86 @@ a{
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align:center;}
+.footer-left h1{
+	margin-top:30px;
+	text-transform:uppercase;
+	font-family:'Dosis', sans-serif;
+	font-size:30px; 
+	background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
+	  background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+	}
+.contact{
+	width: 225px;
+    height: auto;
+    margin: auto;
+	padding-top: 20px;}
+
+.box{
+	height:40px;
+	width:auto;
+	margin:10px;
+	color:white;
+}
+.box2 {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+    line-height: 40px;
+	color: white;}
 .location{
-	height:30px;
-	margin-left:20px;
-	margin-right:20px;}
+	height:32px;
+	margin:5px 20px 0 auto;
+	float:left;
+	line-height:auto;
+	}
 .phone{
-	height:30px;
-	margin-left:20px;
-	margin-right:20px;}
+	height:32px;
+	margin:5px 20px 0 auto;
+	float:left;
+	line-height:40px;}
 .email{
-	height:30px;
-	margin-left:20px;
-	margin-right:20px;}
+	height:32px;
+	margin:5px 20px 0 auto;
+	float:left;
+	line-height:40px;}
+.logobox{
+	width:250px;
+	height:auto;
+	margin:auto;
+	padding-top:25%;
+}	
+		
+.click{
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 22px;
+    text-align: center;
+	line-height:22px;
+	font-family: 'Dosis', sans-serif;
+	background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #bc7114 35%, #986012 45%, #f3b01b 61%, #623d0c 100%);
+	  background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	}
+.click: hover{
+	color:white;
+}
+.rightbox{
+    width: 120px;
+    margin: auto;
+    height: auto;
+    padding-top: 20%;
+}
+	
+	
+	
+	
+	
 .down{
 	text-align:center;
 	color:#3d3832;

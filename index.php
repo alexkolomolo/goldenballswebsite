@@ -294,8 +294,7 @@ include_once 'common.php';
    <div class="row"></div>
 </div>
 
-<!--------------------FOOTER---------------------------------------------->
-
+<!--------------------FOOTER-------------------------------
 <div id="section8" class="col-md-12 container">
    <div class="row">
        
@@ -318,7 +317,58 @@ include_once 'common.php';
 			</br></br></br>
        </div>
   </div>
-	   <div class="row">
+  --------------->
+  
+ <div id="section10" class="container-fluid">
+   <div class="row">
+		<div class="col-md-4 footer-left">
+		
+			 <h1><b><?php echo $lang['CONTACT_US_HEADER']; ?></b></h1> 
+			<div class="contact">
+			    <div class="box">
+                    <img src="images/locationc.png" class="location" alt=""/>
+                    <p><span><?php echo $lang['CONTACT_US_ADDRESS']; ?></span></p>
+                </div>
+                
+                <div class="box2">
+                     <img src="images/phonec.png" class="phone" alt=""/>
+                    <p><span>+48 941- 363-7250</span></p>
+				</div>
+
+                <div class="box2">
+                    <img src="images/messagec.png" class="email" alt=""/>
+                    <p><span>mail@mail.com</span></p>     
+                </div>
+			</div>
+		</div>
+		<div class="col-md-4 footer-center">
+				<div class="logobox">
+					<img src="images/gb2c.png" class="logo2" alt=""/>
+				</div>	
+		</div>
+		<div class="col-md-4 footer-right">
+			<div class="rightbox">
+						<div class="click">
+							<a href="#section1"><b><?php echo $lang['MENU_HOME']; ?></b></a>
+						</div>
+						<div class="click">
+							<a href="#section2"><?php echo $lang['MENU_ABOUT_US']; ?></a>
+						</div>
+						<div class="click">
+							<a href="#section4"><?php echo $lang['MENU_OUR_GAME']; ?></a>
+						</div>
+						<div class="click">
+							<a href="#section5"><?php echo $lang['MENU_PLAN']; ?></a>
+						</div>
+						<div class="click">
+							<a href="#section5"><?php echo $lang['MENU_BOOKING']; ?></a>
+						</div>
+			</div>
+		</div>
+	</div>
+</div>  
+  
+   <div class="row">
 	     <div class="down footer-title">
 	       	<?php echo $lang['CONTACT_US_FOOTER']; ?>
 	     </div>

@@ -58,6 +58,6 @@ $lang['BOOK_BUTTON_LABEL'] = 'ZAREZERWUJ';
 
 // Footer section
 $lang['CONTACT_US_HEADER'] = 'Skontaktuj się z nami';
-$lang['CONTACT_US_ADDRESS'] = 'Ul. Sławkowska 6a <b> Kraków, Polska</b></br>';
+$lang['CONTACT_US_ADDRESS'] = 'Ul. Sławkowska 6a <b></br> Kraków, Polska</b>';
 $lang['CONTACT_US_FOOTER'] = 'Golden balls &copy 2017 &nbsp;Wszelkie prawa zastrzeżone';
 ?>
