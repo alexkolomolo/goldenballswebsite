@@ -567,8 +567,9 @@ a{
 	color:#252424;
 	text-decoration:none;}
 .logo2{
-	height:60px;
-	margin-top:40px;}
+	width:240px;
+	margin:auto;
+	text-align:center;}
 .footer2{
 	color:#fff;
 	text-align:left;
