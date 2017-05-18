@@ -290,6 +290,75 @@ include_once 'common.php';
 	</div>
 </div>
 <!---------------------------Bottom LINE----------------------------------->
+
+ <div id="section10" class="container-fluid">
+   <div class="row">
+		<div class="col-md-4 footer-left">
+		
+			 <h1><b> Contact us</b></h1> 
+			<div class="contact">
+			    <div class="box">
+                    <img src="images/locationc.png" class="location" alt=""/>
+                    <p><span>6a Slawkowska Street <br/> Cracow, Poland</span></p>
+                </div>
+                
+                <div class="box2">
+                     <img src="images/phonec.png" class="phone" alt=""/>
+                    <p><span>+48 941- 363-7250</span></p>
+				</div>
+
+                <div class="box2">
+                    <img src="images/messagec.png" class="email" alt=""/>
+                    <p><span>mail@mail.com</span></p>     
+                </div>
+			</div>
+		</div>
+		<div class="col-md-4 footer-center">
+				<div class="logobox">
+					<img src="images/gb2c.png" class="logo2" alt=""/>
+				</div>	
+		</div>
+		<div class="col-md-4 col-sm-hidden footer-right">
+			<div class="rightbox">
+						<div class="click">
+							<a href="#section1"><b>Home</b></a>
+						</div>
+						<div class="click">
+							<a href="#section2">About us</a>
+						</div>
+						<div class="click">
+							<a href="#section4">Our game</a>
+						</div>
+						<div class="click">
+							<a href="#section5">Plan</a>
+						</div>
+						<div class="click">
+							<a href="#section5">Booking</a>
+						</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+	     <div class="down">
+	       Golden balls &copy 2017 All rights reserved.
+	     </div>
+       </div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="sectionplus" class="container-fluid">
    <div class="row"></div>
 </div>
