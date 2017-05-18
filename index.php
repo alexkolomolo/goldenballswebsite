@@ -290,15 +290,18 @@ include_once 'common.php';
 	</div>
 </div>
 <!---------------------------Bottom LINE----------------------------------->
-
+<div class="sectionplus" class="container-fluid">
+   <div class="row"></div>
+</div>
+<!------------------------FOOTER------------------------------------------->
  <div id="section10" class="container-fluid">
    <div class="row">
 		<div class="col-md-4 footer-left">
 		
 			 <h1><b> Contact us</b></h1> 
-			<div class="contact">
-			    <div class="box">
-                    <img src="images/locationc.png" class="location" alt=""/>
+				<div class="contact">
+					<div class="box">
+						<img src="images/locationc.png" class="location" alt=""/>
                     <p><span>6a Slawkowska Street <br/> Cracow, Poland</span></p>
                 </div>
                 
@@ -348,102 +351,6 @@ include_once 'common.php';
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="sectionplus" class="container-fluid">
-   <div class="row"></div>
-</div>
-
-
-<div id="section8" class="col-md-12 container">
-   <div class="row">
-       
-	   <div class="col-md-5 col-md-offset-1 footer2" >
-	     <p><?php echo $lang['CONTACT_US_HEADER']; ?></p>
-	     <ul style="list-style-type:none">
-	        <li><img src="images/locationc.png" class="location" alt=""/><?php echo $lang['CONTACT_US_ADDRESS']; ?></li>
-	        <li><img src="images/phonec.png" class="phone" alt=""/>+48 123 456 789</li>
-	        <li><img src="images/messagec.png" class="email" alt=""/>golden.balls@mail.com</li>
-	     </ul>
-       </div>
-	   <div class="col-md-4 col-md-offset-1 footer1">
-	       <img src="images/gb2c.png" class="logo2" alt=""/>
-		   </br></br></br>
-			<a href="#section1"><?php echo $lang['MENU_HOME']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
-			<a href="#section2"><?php echo $lang['MENU_ABOUT_US']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
-			<a href="#section3"><?php echo $lang['MENU_OUR_GAME']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
-			<a href="#section4"><?php echo $lang['MENU_PLAN']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
-			<a href="#section5"><?php echo $lang['MENU_BOOKING']; ?><span class="glyphicon glyphicon-one-fine-dot-2"></span></a>
-			</br></br></br>
-       </div>
-  </div>
- 
- <!--------------------FOOTER------------------------------- 
- <div id="section10" class="container-fluid">
-   <div class="row">
-		<div class="col-md-4 footer-left">
-		
-			 <h1><b><?php echo $lang['CONTACT_US_HEADER']; ?></b></h1> 
-			<div class="contact">
-			    <div class="box">
-                    <img src="images/locationc.png" class="location" alt=""/>
-                    <p><span><?php echo $lang['CONTACT_US_ADDRESS']; ?></span></p>
-                </div>
-                
-                <div class="box2">
-                     <img src="images/phonec.png" class="phone" alt=""/>
-                    <p><span>+48 941- 363-7250</span></p>
-				</div>
-
-                <div class="box2">
-                    <img src="images/messagec.png" class="email" alt=""/>
-                    <p><span>mail@mail.com</span></p>     
-                </div>
-			</div>
-		</div>
-		<div class="col-md-4 footer-center">
-				<div class="logobox">
-					<img src="images/gb2c.png" class="logo2" alt=""/>
-				</div>	
-		</div>
-		<div class="col-md-4 footer-right">
-			<div class="rightbox">
-						<div class="click">
-							<a href="#section1"><b><?php echo $lang['MENU_HOME']; ?></b></a>
-						</div>
-						<div class="click">
-							<a href="#section2"><?php echo $lang['MENU_ABOUT_US']; ?></a>
-						</div>
-						<div class="click">
-							<a href="#section4"><?php echo $lang['MENU_OUR_GAME']; ?></a>
-						</div>
-						<div class="click">
-							<a href="#section5"><?php echo $lang['MENU_PLAN']; ?></a>
-						</div>
-						<div class="click">
-							<a href="#section5"><?php echo $lang['MENU_BOOKING']; ?></a>
-						</div>
-			</div>
-		</div>
-	</div>
-</div>  
- --------------->
-  
-   <div class="row">
-	     <div class="down footer-title">
-	       	<?php echo $lang['CONTACT_US_FOOTER']; ?>
-	     </div>
-       </div>   
- </div>	
-</div>	
+	
 	
 </body>
