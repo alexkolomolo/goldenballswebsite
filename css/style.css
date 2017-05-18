@@ -987,12 +987,14 @@ padding-bottom:25px;}
     font-size:50px;}
 .gbbig{
 	height:350px;
+	width:auto;
 	margin-top:20px;
 	margin-left:-10px;}	
 .section2 li{
 	font-size:19px;
 	line-height:27px;
-	text-align:justify;}	
+	text-align:justify;}
+.pointers{width:700px;}	
 .email2 {
     height: 28px;
 	margin-top:5px;
