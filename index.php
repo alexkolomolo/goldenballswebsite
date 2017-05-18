@@ -294,7 +294,7 @@ include_once 'common.php';
    <div class="row"></div>
 </div>
 
-<!--------------------FOOTER-------------------------------
+
 <div id="section8" class="col-md-12 container">
    <div class="row">
        
@@ -317,8 +317,8 @@ include_once 'common.php';
 			</br></br></br>
        </div>
   </div>
-  --------------->
-  
+ 
+ <!--------------------FOOTER------------------------------- 
  <div id="section10" class="container-fluid">
    <div class="row">
 		<div class="col-md-4 footer-left">
@@ -367,6 +367,7 @@ include_once 'common.php';
 		</div>
 	</div>
 </div>  
+ --------------->
   
    <div class="row">
 	     <div class="down footer-title">
