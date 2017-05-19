@@ -618,12 +618,8 @@ a{
 	color: #d3aa49;
 	font-size: 15px;}
 }
-.box2 {
-     height: 40px;
-    width: auto;
-    margin: 10px;
-    line-height: 40px;
-	color: #d3aa49;}
+
+	
 .location{
 	height:32px;
 	margin:5px 20px 0 auto;
@@ -1052,6 +1048,13 @@ padding-bottom:25px;}
     margin-left:5px;
 	margin-right:5px;
 }
+.box2 {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+    line-height: 40px;
+	color: #d3aa49;}
+	
 .booking h1 {font-size: 40px;
 padding-bottom: 40px;
 }
