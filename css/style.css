@@ -614,12 +614,14 @@ a{
 	height:40px;
 	width:auto;
 	margin:10px;
-	height: 40px;
-	color: #d3aa49;
-	font-size: 15px;}
+	color:white;
 }
-
-	
+.box2 {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+    line-height: 40px;
+	color: white;}
 .location{
 	height:32px;
 	margin:5px 20px 0 auto;
@@ -718,7 +720,7 @@ a{
 	margin-bottom:30px;}
 #section3{
 	height:300px;
-	background:url('../images/tlo7a.jpg');
+	background:url('../images/tlo7.jpg');
      background-position: center center;
 	 background-repeat: no-repeat;
 	 background-attachment: fixed;}
@@ -1048,13 +1050,6 @@ padding-bottom:25px;}
     margin-left:5px;
 	margin-right:5px;
 }
-.box2{
-    height: 40px;
-    width: auto;
-    margin: 10px;
-    line-height: 40px;
-	color: #d3aa49;}
-	
 .booking h1 {font-size: 40px;
 padding-bottom: 40px;
 }
