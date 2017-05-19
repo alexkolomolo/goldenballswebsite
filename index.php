@@ -302,7 +302,7 @@ include_once 'common.php';
 				<div class="contact">
 					<div class="box">
 						<img src="images/locationc.png" class="location" alt=""/>
-                    <p><span>6a Slawkowska Street <br/><b> Cracow, Poland</b></span></p>
+                    <p><span><?php echo $lang['CONTACT_US_ADDRESS']; ?></span></p>
                 </div>
                 
                 <div class="box2">
@@ -324,19 +324,19 @@ include_once 'common.php';
 		<div class="col-md-4 col-sm-hidden footer-right">
 			<div class="rightbox">
 						<div class="click">
-							<a href="#section1"><b>Home</b></a>
+							<a href="#section1"><b><?php echo $lang['MENU_HOME']; ?></b></a>
 						</div>
 						<div class="click">
-							<a href="#section2">About us</a>
+							<a href="#section2"><?php echo $lang['MENU_ABOUT_US']; ?></a>
 						</div>
 						<div class="click">
-							<a href="#section4">Our game</a>
+							<a href="#section4"><?php echo $lang['MENU_OUR_GAME']; ?></a>
 						</div>
 						<div class="click">
-							<a href="#section5">Plan</a>
+							<a href="#section5"><?php echo $lang['MENU_PLAN']; ?></a>
 						</div>
 						<div class="click">
-							<a href="#section5">Booking</a>
+							<a href="#section5"><?php echo $lang['MENU_BOOKING']; ?></a>
 						</div>
 			</div>
 		</div>
