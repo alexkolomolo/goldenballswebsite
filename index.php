@@ -302,7 +302,7 @@ include_once 'common.php';
 				<div class="contact">
 					<div class="box">
 						<img src="images/locationc.png" class="location" alt=""/>
-                    <p><span>6a Slawkowska Street <br/> Cracow, Poland</span></p>
+                    <p><span>6a Slawkowska Street <br/><b> Cracow, Poland</b></span></p>
                 </div>
                 
                 <div class="box2">
@@ -344,7 +344,7 @@ include_once 'common.php';
 	
 	<div class="row">
 	     <div class="down">
-	       Golden balls &copy 2017 All rights reserved.
+	      <b> Golden balls &copy 2017 All rights reserved. </b>
 	     </div>
        </div>
 	
