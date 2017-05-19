@@ -614,14 +614,17 @@ a{
 	height:40px;
 	width:auto;
 	margin:10px;
-	color:white;
+	height: 40px;
+	color: #d3aa49;
+	font-size: 15px;}
 }
 .box2 {
     height: 40px;
     width: auto;
     margin: 10px;
     line-height: 40px;
-	color: white;}
+	color: #d3aa49;
+	font-size: 15px; }
 .location{
 	height:32px;
 	margin:5px 20px 0 auto;
