@@ -782,7 +782,8 @@ a{
     padding-bottom: 25px;
     text-align: center;
     width: 160px;
-	margin: auto;}
+	margin: auto;
+	margin-left:5px;}
 .email2 {
     height: 26px;
 	margin-bottom:10px;
