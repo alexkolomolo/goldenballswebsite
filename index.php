@@ -80,7 +80,7 @@ include_once 'common.php';
     <div class="row"></div>
 </div>
 <!---------------------------Section 2----------------------------------->
-<div id="section2" class="container-fluid">
+<!--------<div id="section2" class="container-fluid">
     <div class="col-md-12 section2">
       <h1><b><?php echo $lang['ABOUT_US_HEADER']; ?></b></h1>
 	   <div class="row">
@@ -99,6 +99,47 @@ include_once 'common.php';
 	  </div> 
     </div>
 </div>
+
+---------------Section 2 fix------------------------------->
+<div id="section2" class="container-fluid">
+   <div class="row">
+		<h1><b><?php echo $lang['ABOUT_US_HEADER']; ?></b></h1>
+	</div>
+	<div class="row">
+	<div class="col-md-5 subsection1">
+	<img src="images/gb6c.png" class="img-responsive goldenlogo"/>
+	</div>
+	<div class="col-md-7 subsection2">
+				<div class="list">
+					<div class="line">
+						<img src="images/punktator.png" class="point" />
+                    <p><span><?php echo $lang['ABOUT_US_1']; ?></span></p>
+                </div>
+                
+                <div class="line">
+                     <img src="images/punktator.png" class="point" />
+                    <p><span><?php echo $lang['ABOUT_US_2']; ?></span></p>
+				</div>
+
+                <div class="line">
+                   <img src="images/punktator.png" class="point" />
+                    <p><span><?php echo $lang['ABOUT_US_3']; ?></span></p>     
+                </div>
+				 <div class="line">
+                   <img src="images/punktator.png" class="point" />
+                    <p><span><?php echo $lang['ABOUT_US_4']; ?></span></p>     
+                </div>
+				 <div class="line">
+                   <img src="images/punktator.png" class="point" />
+                    <p><span><?php echo $lang['ABOUT_US_5']; ?></span></p>     
+                </div>
+	</div>
+	</div>
+</div>
+</div>
+<!-----------------------end of section2-------------------------------------->
+
+
 <!----------------------------Botoom LINE---------------------------------------->  
 <div class="sectionplus" class="container-fluid">
 <div class="row"></div>
