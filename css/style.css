@@ -1,7 +1,7 @@
 body {
     position: relative; 
 	background-color:black;
-	color:#f9ff9f;}
+	color:#f9a61c;}
 .logo{
 	height:40px;
 	margin-top:-5px;}
@@ -202,18 +202,20 @@ body {
     padding-bottom:60px;
 	opacity:0.9;
 	}
-.section2 h1{
+
+#section2 h1{
 	font-family: 'Century Gothic', sans-serif;
-	font-weight:700;
 	font-size:50px;
 	text-align:center;
 	text-transform:uppercase;
-     background: -webkit-linear-gradient(transparent, transparent),
+	background: -webkit-linear-gradient(transparent, transparent),
     -webkit-linear-gradient(top,#fffba3 0%, #fac14c 26%, #ffd94c 35%, #986012 45%, #db6303 61%, #623d0c 100%);
 	  background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}	
+	opacity:1;}	
+
+	
 .arguments2{
 	margin-top:40px;
 	margin-left:30px;
@@ -245,20 +247,8 @@ body {
 	margin:30px auto;
 
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-/*-----------------SECTION 2--------------------------------*/
+
+/*-----------------SECTION 9--------------------------------*/
 
 #section9{
 	font-family: 'Dosis', sans-serif;
@@ -973,8 +963,7 @@ padding-bottom:25px;}
 .glowny{
     max-width:90%;
     margin-left:50px;}
-#section2 h1{
-	font-size:40px; }
+
 .gbbig{
 	height:280px;
 	margin-top:50px;
@@ -1021,8 +1010,7 @@ padding-bottom:25px;}
 .glowny{ 
     max-height:85%;
     margin-left:50px;}
-#section2 h1{
-    font-size:50px;}
+
 .gbbig{
 	height: 350px;
 	width: auto;
