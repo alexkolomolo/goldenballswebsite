@@ -1,0 +1,357 @@
+body {
+    position: relative; 
+	color:rgb(0,0,0);
+	font-family: 'Overpass', sans-serif;}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 70px;
+	font-family: 'Secular One';
+	font-weight: 500;
+	letter-spacing: 5px;
+	color: rgba(0,0,0,0.2);
+	margin: 40px auto 10px;	
+}
+/*-----------------------Navigation-------------------------*/
+.navbar{
+	margin:20px auto;
+	background-color:transparent;
+	border-bottom:none;
+}
+.navbar-nav {
+    float:none;
+    margin:10px auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;   
+	text-transform:uppercase;	
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: rgb(255,255,255);
+	font-size:13px;
+	font-weight:900;
+	letter-spacing:1px;
+}
+/*Text color*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color:rgb(15,155,142);
+}														
+.navbar-inverse .navbar-nav > li > a: hover {
+	color: green;
+	font-size:11px;	
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+	background-color:transparent;
+	}
+.navbar-nav hr {
+	background-color: rgb(255,255,255);
+	height: 0.25px;
+	width: 30%;
+	margin-top:5px;}
+	
+/*-------------------------Section 1-------------------------------------------*/
+
+#section1 {
+	 background:url('../images/background0.jpg');
+     background-position: center center;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 height:auto;}
+#section1 h1 {
+	font-family: 'Secular One', sans-serif;
+	font-size:78px;
+	margin-top:330px;
+	text-align:center;
+	color:rgba(255,255,255,0.85);
+	}
+#section1 h1 span{
+	font-size:95px;
+}
+
+#section1 hr {
+	background-color: rgb(6,48,44);
+	height: 1px;
+	width: 50%;
+	margin:auto;
+	border-top: 1px;}
+#section1 h2{
+	color:rgb(255,255,255);
+	font-family: 'Sintony', sans-serif;
+	font-size:15px;
+	text-align:center;
+	margin-top:20px;
+}
+.logo{
+	max-width:80%;
+	margin:100px auto 70px auto;
+}
+.btn {
+    padding: 18px 35px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+	text-decoration:none;
+	margin-top:70px;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: rgba(6,48,44,0.3);
+	border:1px solid rgb(6,48,44);
+    color: #ffffff;
+	
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	 background: rgba(0,0,0,0.1);
+	text-decoration:none;
+	cursor:pointer;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: red;
+    box-shadow: none;
+	text-decoration:none;
+}
+/*-------Section2------------------*/
+#section2{
+	background-color:rgb(231,231,231);
+	text-align:center;
+}
+
+#section2 h2{
+	color:rgb(255,255,255);
+	text-transform:uppercase;
+	font-size:22px;
+	margin:120px auto 20px;
+	background-color:rgba(20,142,125,0.4);
+	transition: transform 0.5s;
+	
+}
+#section2 h3{
+	color:white;
+	font-size:14px;
+} 
+#section2 hr{
+	width:35%;
+	height:1.5px;
+	background-color: rgb(20,142,125);
+	margin:10px auto 30px;
+}
+.one, .two, .three{
+	background-size:cover;
+	background-position: center center;
+	background-repeat:no-repeat;
+	height:290px;
+	transition: transform 0.5s;
+}
+.one{
+	 background:url('../images/1.png');
+ }
+.two{
+	background:url('../images/2.png');
+}
+.three{
+	background:url('../images/3.png');
+}
+
+.one:hover, .two:hover, .three:hover{
+	transform: scale(0.95);
+	cursor:pointer;
+}
+
+/*--------------Section 3-----------------*/
+#section3{
+	margin:80px 0;
+}
+#section3 h2{
+	text-align:center;
+	text-transform:uppercase;
+	color:rgb(0,98,84);
+	font-size:16px;
+	font-weight:700;
+	margin:20px auto;
+	background-color:transparent;
+}
+#section3 h3{
+	color:rgb(115,115,115);
+	font-size:14px;
+	text-align:center;
+	margin:5px auto;
+	
+}
+.icon1, .icon2, .icon3, .icon4{
+	width:100px;
+	height:auto;
+	margin:auto;
+}
+
+/*--------------Section 4-----------------*/
+#section4{
+	margin:30px auto 0;
+	font-family:'Secular One', sans-serif;
+	background:url('../images/bg1.jpg');
+	background-position: center center;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 height:auto;
+	 text-align:center;
+}
+#section4 h1{
+	color:rgba(255,255,255,0.3);
+}
+#section4 h2{
+	margin:8px auto 20px;
+	text-transform:uppercase;
+	font-weight:400;
+	color:rgba(255,255,255,0.2);
+	font-size:20px;
+}
+#section4 h3{
+	font-weight:400;
+	color:rgba(34,187,153,0.5);
+	font-size:15px;
+	margin-bottom:30px;	
+}
+#section4 hr{
+	width:35%;
+	height:1.5px;
+	border-style: inset;
+	color:rgb(20,142,125);
+	border-top:1px;
+	background-color: rgb(20,142,125);
+	margin:5px auto 30px;
+}
+.photo1{
+	width:120px;
+	height:auto;
+	margin:10px auto;
+}
+/*------------Section5---------------*/
+
+#section5{
+	background-color:rgb(0,0,0);
+	border-top:1px solid rgba(1,144,124,0.7);	
+}
+.logo2{
+	width:80px;
+	height:auto;
+	margin:90px auto 5px;
+}
+#section5 h1 {
+	font-family: 'Secular One', sans-serif;
+	font-weight:900;
+	letter-spacing:0.25px;
+	font-size:30px;
+	text-align:center;
+	color:rgba(255,255,255,0.65);
+	margin-top:0;
+	}
+#section5 span{
+	text-align:center;
+	font-size:16px;
+	color:rgba(1,144,124,0.7);
+	font-weight:500;
+	margin:10px auto 80px;
+	display:inherit;
+}
+#section5 h2 {
+	font-size:15px;
+	text-align:center;
+	color:rgba(255,255,255,0.65);
+	margin:40px auto 15px;
+	font-style:bolder;
+	}
+#section5 hr{
+	width:5%;
+	height:1.5px;
+	margin:10px auto;
+}
+#section5 .navbar-nav li {
+    display: inline-block;
+    float: initial;
+    padding: 5px 15px;
+	text-decoration:none;}
+
+ #section5 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color:rgb(15,155,142);
+	border:none;
+	background-color:transparent;
+	text-decoration:none;
+}														
+#section5 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+	background-color:transparent;
+	border:none;
+	text-decoration:none;
+	} 
+
+#section5 .navbar-nav li a{
+    text-transform: uppercase;
+	color:rgb(1,144,124);
+    font-size: 11px;
+    font-weight: 900;
+    position: relative;
+	padding:5px auto;}
+
+
+#section5 .navbar-nav li a:hover{
+	background-color:transparent;
+	color:rgba(255,255,255,0.5);
+}	
+	
+#section5 p{
+	
+	background-color:rgba(255,255,255,0.05);
+	color:rgb(255,255,255);
+	text-align:center;
+	font-size:11px;
+	font-style:italic;
+	margin:0;
+}
+	
+/* Small devices */
+@media (max-width: 460px) {
+	.navbar{
+	background-color:rgb(0,0,0);
+	height:auto;
+	border:none;	
+	}
+	.navbar-nav > li {
+	text-align:center;
+	margin:auto 80px ;
+	}
+}
+@media (max-width: 768px) {
+	h1{
+	font-size: 40px;
+	margin: 20px auto;	
+	}
+	#section1 h1 {
+	font-size:40px;
+	margin-top:150px;
+	}
+	.photo2{
+	margin:20px auto;
+	}
+	
+}
+	
+
+
+
+
+
+
+
+
