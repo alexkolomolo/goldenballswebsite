@@ -348,12 +348,12 @@ include_once 'common.php';
                 
                 <div class="box2">
                      <img src="images/phonec.png" class="phone" alt=""/>
-                    <p><span>+48 941- 363-7250</span></p>
+                    <p><span>12 379 41 00</span></p>
 				</div>
 
                 <div class="box2">
                     <img src="images/messagec.png" class="email" alt=""/>
-                    <p><span>mail@mail.com</span></p>     
+                    <p><span>booking@goldenballs.fun</span></p>     
                 </div>
 			</div>
 		</div>
