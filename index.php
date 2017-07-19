@@ -324,9 +324,17 @@ include_once 'common.php';
     </div>
     <div class="container">
 	  <div class="row">
-		 <div class="button1"><a href="#">
+		 <!-- <div class="button1"><a href="#">
 			 <button><b><?php echo $lang['BOOK_BUTTON_LABEL']; ?></b></button></a>
-		  </div> 
+		  </div>  -->
+
+			<div class="col-md-12">
+				<script type="text/javascript">
+  window.handleIFrameMessage = function(e){ if(e.data.height && e.data.id){ var el = document.getElementById(e.data.id);if(el) el.style.height = e.data.height+"px"; } };
+  window.addEventListener("message", handleIFrameMessage, false);
+</script>
+<iframe id="iframe_calendar_01af91dadfb98a26ccfa6823b4ad0ac0_584_1510" src="https://widget.lockme.pl/calendar/01af91dadfb98a26ccfa6823b4ad0ac0_584_1510.html" border="0" width="100%" height="450" style="border:none;"></iframe>
+			</div>
 	  </div>
 	</div>
 </div>
