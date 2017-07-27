@@ -356,7 +356,7 @@ include_once 'common.php';
                 
                 <div class="box2">
                      <img src="images/phonec.png" class="phone" alt=""/>
-                    <p><span>12 379 41 00</span></p>
+                    <p><span>+48 123 966 585</span></p>
 				</div>
 
                 <div class="box2">
