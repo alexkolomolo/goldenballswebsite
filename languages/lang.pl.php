@@ -37,7 +37,7 @@ $lang['CHALLENGES_KNOWLEDGE'] = 'WIEDZA';
 $lang['CHALLENGES_MEMORY'] = 'PAMIĘĆ';
 
 // to win this game section
-$lang['TO_WIN_GAME_HEADER'] = 'ABY WYGRAĆ TĄ GRĘ';
+$lang['TO_WIN_GAME_HEADER'] = 'ABY WYGRAĆ TĘ GRĘ';
 $lang['TO_WIN_GAME_IMG_SRC'] = '';
 
 // why we are different section
